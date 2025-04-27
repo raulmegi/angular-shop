@@ -1,0 +1,18 @@
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.producto-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.producto-imagen {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
