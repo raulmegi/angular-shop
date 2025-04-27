@@ -1,59 +1,78 @@
-# Tienda
+# Tienda - Full Stack Shop Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+**Tienda** is a full-stack web application for managing and selling products online. It was developed as part of a Programming Master's course project to practice building a real-world e-commerce app using modern web technologies.
 
-## Development server
+---
 
-To start a local development server, run:
+## Project Status
+**Status:** Starting Point - Base structure uploaded from Master's final project notes. AAll classes of the course have been completed and the application does not yet have all features fully implemented. The goal is to continue developing the project and document the entire process in this repository.
 
+Daily progress and improvements will be uploaded from now on.
+
+---
+
+## Tech Stack
+- **Frontend:** Angular 17+
+- **Backend:** Node.js + Express.js
+- **Database:** PostgreSQL
+- **Authentication:** JWT (JSON Web Tokens)
+- **API Testing:** Postman
+
+---
+
+## Features Planned
+- View products (public)
+- Register/Login with JWT auth
+- User profile page
+- Admin area (create, edit, delete products)
+- Route protection with roles (admin vs client)
+- Responsive UI
+
+---
+
+## Installation
+
+### Backend (Express.js API)
 ```bash
+# Navigate to the API project folder (if separated)
+cd tienda-backend
+
+# Install dependencies
+npm install
+
+# Start the server
+npm run dev
+# (or nodemon index.js)
+```
+
+### Frontend (Angular App)
+```bash
+# Navigate to the Angular project
+cd tienda
+
+# Install dependencies
+npm install
+
+# Start the Angular dev server
 ng serve
+
+# Visit http://localhost:4200
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## Progress Tracking
+Daily commits will document:
+- New features added
+- Bug fixes
+- Improvements to code quality, UX, or security
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## Author
+**Raúl Megías** - Junior Full Stack Developer
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## License
+This project is for educational and portfolio purposes.
